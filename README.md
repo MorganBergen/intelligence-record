@@ -1,6 +1,6 @@
 # intelligence-record
 
-ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always accessible to the public world. this is a collection of those conversations view them [here](./messages.md)
+ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always be accessible to the public world. this is a collection of those conversations view them [here](./messages.md)
 
 ### `/Users/owner/Library/Application Support/aichat`
 
@@ -40,8 +40,5 @@ while True:
 
 <img src="./prev.png">
 
-<<<<<<< HEAD
 Thank you for the makers of [aichat](https://github.com/sigoden/aichat) to make this possible
-=======
 make sure to read [openai api](https://platform.openai.com/docs/api-reference/completions/create#chat)
->>>>>>> b621b60 (link to completions)
