@@ -1,6 +1,6 @@
 # intelligence-record
 
-ever since i started using chatgpt i have monitored and stored each conversation i have had with it. this is a collection of those conversations view them here [here](./messages.md)
+ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always accessible to the public world. this is a collection of those conversations view them here [here](./messages.md)
 
 ### `/Users/owner/Library/Application Support/aichat`
 
@@ -15,3 +15,23 @@ ever since i started using chatgpt i have monitored and stored each conversation
 ```
 
 ###  `python3 monitor.py`
+
+the code is quite simple if you have `shutil` installed with pip3 just a continuous while statement and a few calls to copy and pasta the module into the correct `.git` directory.
+
+```python
+import os
+import shutil
+import time
+
+src_file = '/Users/owner/Library/Application Support/aichat/messages.md'
+dest_folder = '/Users/owner/Documents/GitHub/intelligence-record'
+
+last_modification = os.path.getmtime(src_file)
+
+while True:
+    if os.path.getmtime(src_file) > last_modification:
+        shutil.copy(src_file, dest_folder)
+        print("file updated! preview it here https://github.com/MorganBergen/intelligence-record.git")
+        last_modification = os.path.getmtime(src_file)
+    time.sleep(1)
+```
