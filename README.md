@@ -40,4 +40,8 @@ while True:
 
 <img src="./prev.png">
 
+<<<<<<< HEAD
 Thank you for the makers of [aichat](https://github.com/sigoden/aichat) to make this possible
+=======
+make sure to read [openai api](https://platform.openai.com/docs/api-reference/completions/create#chat)
+>>>>>>> b621b60 (link to completions)
