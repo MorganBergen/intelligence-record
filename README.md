@@ -39,3 +39,5 @@ while True:
 ###  configuration 
 
 <img src="./prev.png">
+
+Thank you for the makers of [aichat](https://github.com/sigoden/aichat) to make this possible
