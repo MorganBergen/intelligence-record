@@ -1,6 +1,6 @@
 # intelligence-record
 
-ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always accessible to the public world. this is a collection of those conversations view them here [here](./messages.md)
+ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always accessible to the public world. this is a collection of those conversations view them [here](./messages.md)
 
 ### `/Users/owner/Library/Application Support/aichat`
 
