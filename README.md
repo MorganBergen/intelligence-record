@@ -55,7 +55,6 @@ make sure to read [openai api](https://platform.openai.com/docs/api-reference/co
 
 or you could say general thoughts about ai
 
-
 > What they (the public) doesn’t talk about is all of the white collar work that AI is going to do.  My belief is that all repetitive human work that doesn’t require the deep emotional connection between two people; that will all be done in the next couple decades better, cheaper, and faster by AI.
 
 — Sam Altman, OpenAI Co-Chairman
@@ -63,3 +62,4 @@ or you could say general thoughts about ai
 > "It is a profoundly erroneous truism, repeated by all copybooks and by eminent people when they are making speeches, that we should cultivate the habit of thinking of what we are doing. The precise opposite is the case. Civilization advances by extending the number of important operations which we can perform without thinking about them. Operations of thought are like cavalry charges in a battle- they are strictly limited in number, they require fresh horses, and must only be made at decisive moments."
 
 -A. N. Whitehead
+
