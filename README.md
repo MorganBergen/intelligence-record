@@ -46,6 +46,21 @@ while True:
 
 ###  configuration 
 
+how to create audio from a header request using bash
+
+
+```
+curl https://api.openai.com/v1/audio/speech \
+    -H "Authorization:  Bearer $OPENAI_KEY" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "model: "tts-1",
+        "input" "hello hello hello",
+        "voice": "alloy"
+    }' \
+    --output WORDS.mp3
+```
+
 <img src="./prev.png">
 
 thank you for the makers of [aichat](https://github.com/sigoden/aichat) to make this possible
