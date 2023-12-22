@@ -1,4 +1,4 @@
-# intelligence-record
+# intelligence-record using AICHAT
 
 ###  contents
 
@@ -8,7 +8,7 @@
 4.  [remarks](#remarks)
 5.  [philosophy on ai](#philosophy-on-ai)
 
-ever since i started using chatgpt i have monitored and stored each conversation i have had with it.  of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always be accessible to the public world. this is a collection of those conversations view them [here](./messages.md)
+when i started to use chatgpt ever since i started using chatgpt i have monitored and stored each conversation i have had of course everyone has a copy of their data, however this data will be formatted automatically into a markdown file and will always be accessible to the public world. this is a collection of those conversations view them [here](./messages.md)
 
 ### `/Users/owner/Library/Application Support/aichat`
 
@@ -48,8 +48,7 @@ while True:
 
 how to create audio from a header request using bash
 
-
-```
+```bash
 curl https://api.openai.com/v1/audio/speech \
     -H "Authorization:  Bearer $OPENAI_KEY" \
     -H "Content-Type: application/json" \
